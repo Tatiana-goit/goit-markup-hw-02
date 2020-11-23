@@ -90,7 +90,6 @@ a {
 .address-list-item:focus {
   color: var(--accent-color);
 }
-
 /*===============END HEADER============*/
 
 /*===============HERO============*/
@@ -146,7 +145,6 @@ a {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-
 /*===============END ACTIVITIES============*/
 
 /*===============ACTIVITIES============*/
@@ -195,5 +193,37 @@ a {
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--title-text-color);
 }
+/*===============END FOOTER============*/
 
-/*===============END FOOTER============*/ ;
+/*===============WORKS(2)============*/
+.works-button-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.works-button-list-item:hover,
+.works-button-list-item:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.example-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.example-list-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*===============END WORKS(2)============*/
