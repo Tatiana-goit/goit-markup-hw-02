@@ -114,6 +114,7 @@ a {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-family: var(--main-font);
 }
 /*===============END HERO============*/
 
@@ -203,6 +204,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  font-family: var(--main-font);
 }
 
 .works-button-list-item:hover,
